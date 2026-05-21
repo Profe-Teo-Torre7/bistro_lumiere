@@ -9,6 +9,11 @@ h1{
     text-align: center;
     margin-top:30px;
     margin-bottom: 40px;
+    
+}
+section{
+    margin-top:40px;
+    margin-bottom: 30px;
 }
 footer{
     margin-top: 40px;
@@ -58,3 +63,34 @@ footer{
     color:black;
 }
 
+.volver{
+    margin:20px;
+}
+.volver a{
+    color:black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.seccion{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-size: 35px;
+
+}
+.plato{
+    text-align: center;
+    font-size: 18px;
+    line-height: 3;  
+}
+.alergia{
+    font-style: italic;
+}
+
+.separador{
+    width: 5%;                       /* Ancho deseado */
+    margin: 20px auto;               /* 20px arriba/abajo, auto centra horizontalmente */
+    border: 0;                       /* Elimina el borde por defecto del navegador */
+    border-top: 4px solid #d0cece; /* Define el grosor y color */
+
+}
